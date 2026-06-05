@@ -1,0 +1,286 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.main-container {
+  min-height: 100vh;
+  background-color: white;
+  padding-top: 180px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.left-nav-content {
+  display: flex;
+
+  gap: 20px;
+}
+
+.right-nav-content {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.flipkart-logo {
+  padding: 12px 20px;
+  background-color: #ffe51f;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.travel-logo {
+  padding: 12px 20px;
+  background-color: lightgrey;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.right-nav-content span {
+  color: blue;
+}
+
+.searchbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchbar-right-content {
+  width: 20vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: right;
+}
+
+.searchbar-div {
+  width: 50vw;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid #2ea1ff;
+  background-color: white;
+}
+
+.searchbar-div input {
+  width: 45vw;
+  height: 30px;
+
+  outline: none;
+  border: none;
+  padding: 4px 8px;
+
+  font-size: 15px;
+}
+
+.searchbar-div i {
+  font-size: 20px;
+  opacity: 0.6;
+}
+
+.fa-regular fa-circle-user {
+  font-size: 20px;
+}
+
+.main-navbar {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.navabar-items {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.cards {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  gap: 15px;
+  margin: 20px 0px;
+}
+
+.cards img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.images {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 50px;
+  margin: 20px 0px;
+  border: #172337 solid 1px;
+  border-radius: 10px;
+  background-color: red;
+}
+
+.new_cards img {
+  padding: 0px;
+  border-radius: 20px;
+  width: 32%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.inside-div {
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding: 20px;
+  width: 100%;
+}
+
+.card-img,
+.card-img2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.new_cards {
+  display: flex;
+  flex-direction: row;
+  align-items: space-evenly;
+  justify-content: space-evenly;
+  margin: 30px 0px;
+  background-color: yellow;
+  border-radius: 25px;
+  width: 100%;
+  padding: 20px;
+}
+
+.new_cards2 {
+  display: flex;
+  flex-direction: row;
+  align-items: space-evenly;
+  justify-content: space-evenly;
+  margin: 30px 0px;
+  background-color: blue;
+  border-radius: 25px;
+  width: 100%;
+  padding: 20px;
+}
+
+.new_cards2 img {
+  padding: 0px;
+  border-radius: 12px;
+  width: 32%;
+  height: 170px;
+  object-fit: cover;
+}
+
+.card-img2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.inside-div2 {
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding: 20px;
+  width: 100%;
+}
+
+.header {
+  position: fixed;
+  background-color: white;
+  width: 1200px;
+  max-width: 100%;
+  top: 0;
+}
+
+.footer {
+  background-color: #172337;
+  color: white;
+  margin-top: 40px;
+  padding: 30px 20px 10px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-section h4 {
+  color: #878787;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.footer-section p:hover {
+  text-decoration: underline;
+}
+
+.footer hr {
+  border: none;
+  border-top: 1px solid #454d5e;
+  margin: 20px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+  color: #cccccc;
+}
+
+.new_cards h2,
+.new_cards2 h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
